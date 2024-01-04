@@ -1,0 +1,124 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+}
+
+:root {
+    --maxWidth: 1300px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    border-bottom: 1px solid #e8e3e3;
+    padding: 20px 30px;
+}
+.header .header_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--maxWidth);
+    margin: auto;
+}
+
+.header .header_title_cont .header_title{
+    color: #101828;
+    font-size: 30px;
+    font-weight: 400;
+}
+.header .header_title_cont .header_copy{
+    color: #475467;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header_notification{
+    position: relative;
+    margin-right: 10px;
+}
+.header_notification .notification_count{
+    position: absolute;
+    bottom: -6px;
+    right: -12px;
+    background-color: #F04438;
+    border-radius: 50%;
+    color: white;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.hero{
+    border: 1px solid #e8e3e3;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: var(--maxWidth);
+    margin:20px auto ;
+}
+.hero .gradient{
+    position: relative;
+    height: 192px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #b450fe, #fee57e);
+}
+.hero .gradient .logo{
+    position: absolute;
+    bottom: -102px;
+    left: 15px;
+    height: 150px;
+}
+.hero .hero_content {
+    margin-left: 175px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.hero .hero_title { 
+    color: #101828;
+    font-size: 24px;
+    font-weight: 600;
+}
+.hero .actions{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.hero .live_btn {
+    margin-right: 15px;
+    background-color: #FFFAEB;
+    color: #B54708;
+    border: 0px;
+    border-radius: 16px;
+    padding: 12px;
+}
+.hero .live_btn span{
+    margin-left: 5px;
+}
+.layer_auction {
+    color: #475467;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero .accept_invite {
+    background: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    padding: 8px 14px;
+    color: #344054;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+.hero .accept_invite span{
+    /* margin-left: 5px; */
+    font-weight: 600;
+}
