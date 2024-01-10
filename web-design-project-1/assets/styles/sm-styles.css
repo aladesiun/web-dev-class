@@ -1,0 +1,47 @@
+@media only screen and (max-width:750px) {
+    .hero .gradient .logo {
+        display: none;
+    }
+
+    .hero .hero_content {
+        margin-left: 0px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero_wrapper {
+        padding: 10px 24px;
+    }
+
+    .header {
+        border-bottom: 1px solid #e8e3e3;
+        padding: 20px 24px;
+    }
+
+    .hero .hero_title {
+        color: #101828;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (max-width:288px) {
+
+    .hero .actions {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero .live_btn {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .hero .accept_invite {
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+}

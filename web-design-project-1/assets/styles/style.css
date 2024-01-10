@@ -13,6 +13,8 @@ body{
     box-sizing: border-box;
     
 }
+
+/* header  styles */
 .header{
     border-bottom: 1px solid #e8e3e3;
     padding: 20px 30px;
@@ -53,6 +55,12 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 12px;
+}
+
+
+/* Hero section styles */
+.hero_wrapper{
+    padding: 10px 35px;
 }
 .hero{
     border: 1px solid #e8e3e3;
@@ -107,7 +115,11 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.hero .accept_invite {
+.hero .accept_invite span{
+    /* margin-left: 5px; */
+    font-weight: 600;
+}
+.secondary_btn {
     background: white;
     border: 1px solid #d6d6d6;
     border-radius: 5px;
@@ -116,9 +128,68 @@ body{
     display: flex;
     align-items: center;
     gap: 7px;
-
+    text-wrap: nowrap;
 }
-.hero .accept_invite span{
-    /* margin-left: 5px; */
+
+
+/* main content styles */
+.main_content{
+    max-width: var(--maxWidth);
+    margin: auto;
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main_content .main_content_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAECF0;
+    padding: 10px;
+}
+.main_content_title {
+    font-weight: 500;
+    color: #101828;
+    font-size: 18px;
+}
+.card{
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 10px;
+}
+.card .product_img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.profile_cont{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.profile_cont .profile_avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.profile_cont .name{
+    color: #344054;
+    font-size: 14px;
+    font-weight: 500;
+}
+.profile_cont .slug{
+    font-size: 14px;
+    color: #98A2B3;
+    font-weight: 300;
+}
+.product_name{
     font-weight: 600;
+    font-size:14px;
+    color: #101828;
+    margin: 10px 0px;
 }
