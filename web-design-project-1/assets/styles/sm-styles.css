@@ -1,3 +1,8 @@
+@media only screen and (max-width:900px) {
+    .cards_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 @media only screen and (max-width:750px) {
     .hero .gradient .logo {
         display: none;
@@ -23,11 +28,38 @@
         font-size: 22px;
         font-weight: 600;
     }
+    .cards_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
+@media only screen and (max-width:470px) {
+    .cards_wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
-@media only screen and (max-width:288px) {
+@media only screen and (max-width:300px) {
+    .main_content .main_content_header {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .secondary_btn {
+        text-align: center;
+        justify-content: center;
+        text-wrap: nowrap;
+        width: 100%;
+    }
+    .hero_wrapper {
+        padding: 10px 16px;
+    }
 
+    .header {
+        padding: 20px 16px;
+    }
+    .main_wrapper{
+        padding: 10px 16px;
+    }
     .hero .actions {
         margin-top: 10px;
         display: flex;

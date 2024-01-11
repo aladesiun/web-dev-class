@@ -6,6 +6,9 @@
 :root {
     --maxWidth: 1300px;
 }
+button{
+    cursor: pointer;
+}
 
 body{
     margin: 0;
@@ -152,6 +155,15 @@ body{
     color: #101828;
     font-size: 18px;
 }
+.main_wrapper{
+    padding: 10px 24px;
+}
+.cards_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 16px;
+}
 .card{
     border: 1px solid #EAECF0;
     border-radius: 10px;
@@ -164,6 +176,7 @@ body{
 }
 .profile_cont{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     align-items: center;
 }
@@ -188,8 +201,70 @@ body{
     font-weight: 300;
 }
 .product_name{
-    font-weight: 600;
-    font-size:14px;
+    font-weight: 500;
+    font-size:13px;
     color: #101828;
     margin: 10px 0px;
+}
+.bid_cont{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #EAECF0;
+    padding-bottom: 10px;
+}
+.bid_cont .bid_text{
+    color: #344054;
+    font-size: 14px;
+    font-weight: 300;
+}
+.bid_cont .bid_amount{
+    color: #344054;
+    font-size: 14px;
+    font-weight: 700;
+}
+.primary_btn{
+    background-color: #004CCC;
+    padding: 9px 16px;
+    color: white;
+    border: 1px solid #004CCC;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: all 1s ease;
+    animation-name: primary_btn_animate;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+
+/* @keyframes primary_btn_animate {
+    0%{
+        margin-left: 0px;
+    }
+    10%{
+        margin-left: 10px;
+
+    }
+    50%{
+        margin-left: 0px;
+    
+    }
+    90%{
+        margin-right: 10px;
+    }
+    100%{
+        margin-right: 0px;
+
+    }
+} */
+@keyframes primary_btn_animate {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+.primary_btn:hover{
+    background-color: white;
+    border-color: #004CCC;
+    color: #004CCC;
+    border: 1px solid;
 }
