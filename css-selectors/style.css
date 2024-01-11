@@ -1,0 +1,103 @@
+/* Descendant Selector (Space) */
+section div {
+    /* Styles applied to div elements inside a section */
+}
+
+/* Child Selector (>) */
+article > p {
+    /* Styles applied to p elements directly inside an article */
+}
+
+/* Adjacent Sibling Selector (+) */
+h2 + p {
+    /* Styles applied to p elements immediately following an h2 */
+}
+
+/* General Sibling Selector (~) */
+h2 ~ p {
+    /* Styles applied to all p elements following an h2 */
+}
+
+/* Attribute Selector ([attribute]) */
+input[type] {
+    /* Styles applied to all input elements with a 'type' attribute */
+}
+
+/* Attribute with a Specific Value Selector ([attribute=value]) */
+input[type="text"] {
+    /* Styles applied to input elements with 'type' attribute set to 'text' */
+}
+
+/* Attribute Starts With Selector ([attribute^=value]) */
+a[href^="https://"] {
+    /* Styles applied to anchor elements with 'href' starting with "https://" */
+}
+
+/* Attribute Ends With Selector ([attribute$=value]) */
+img[src$=".png"] {
+    /* Styles applied to image elements with 'src' ending with ".png" */
+}
+
+/* Attribute Contains Selector ([attribute*=value]) */
+[class*="button"] {
+    /* Styles applied to elements with a class containing "button" */
+}
+
+/* Negation Selector (:not()) */
+p:not(.special) {
+    /* Styles applied to paragraphs not having the class 'special' */
+}
+
+/* First Child (:first-child) */
+li:first-child {
+    /* Styles applied to the first child li element of its parent */
+}
+
+/* Last Child (:last-child) */
+li:last-child {
+    /* Styles applied to the last child li element of its parent */
+}
+
+/* Nth Child (:nth-child()) */
+li:nth-child(2n) {
+    /* Styles applied to every second li element of its parent */
+}
+
+/* Nth Last Child (:nth-last-child()) */
+li:nth-last-child(3) {
+    /* Styles applied to the third-to-last li element of its parent */
+}
+
+/* First of Type (:first-of-type) */
+p:first-of-type {
+    /* Styles applied to the first paragraph element of its parent type */
+}
+
+/* Last of Type (:last-of-type) */
+p:last-of-type {
+    /* Styles applied to the last paragraph element of its parent type */
+}
+
+/* Empty (:empty) */
+p:empty {
+    /* Styles applied to empty paragraph elements */
+}
+
+/* Enabled (:enabled) and Disabled (:disabled) */
+input:enabled {
+    /* Styles applied to enabled input elements */
+}
+
+input:disabled {
+    /* Styles applied to disabled input elements */
+}
+
+/* Checked (:checked) */
+input:checked {
+    /* Styles applied to checked input elements (e.g., checkboxes) */
+}
+
+/* Root (:root) */
+:root {
+    /* Styles applied to the root of the document (usually <html>) */
+}

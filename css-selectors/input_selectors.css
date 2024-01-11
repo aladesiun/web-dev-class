@@ -1,0 +1,107 @@
+/* Selects all input elements */
+input {
+    /* Styles applied to all input elements */
+}
+
+/* Selects input elements with a 'type' attribute of 'text' */
+input[type="text"] {
+    /* Styles applied to input elements with 'type' attribute set to 'text' */
+}
+
+/* Selects input elements with a 'type' attribute of 'password' */
+input[type="password"] {
+    /* Styles applied to input elements with 'type' attribute set to 'password' */
+}
+
+/* Selects input elements with a 'type' attribute of 'number' */
+input[type="number"] {
+    /* Styles applied to input elements with 'type' attribute set to 'number' */
+}
+
+/* Selects input elements with a 'type' attribute of 'email' */
+input[type="email"] {
+    /* Styles applied to input elements with 'type' attribute set to 'email' */
+}
+
+/* Selects input elements with a 'type' attribute of 'checkbox' */
+input[type="checkbox"] {
+    /* Styles applied to input elements with 'type' attribute set to 'checkbox' */
+}
+
+/* Selects input elements with a 'type' attribute of 'radio' */
+input[type="radio"] {
+    /* Styles applied to input elements with 'type' attribute set to 'radio' */
+}
+
+/* Selects input elements with a 'type' attribute of 'file' */
+input[type="file"] {
+    /* Styles applied to input elements with 'type' attribute set to 'file' */
+}
+
+/* Selects disabled input elements */
+input:disabled {
+    /* Styles applied to disabled input elements */
+}
+
+/* Selects enabled input elements */
+input:enabled {
+    /* Styles applied to enabled input elements */
+}
+
+/* Selects checked input elements (e.g., checkboxes) */
+input:checked {
+    /* Styles applied to checked input elements */
+}
+
+/* Selects input elements in focus */
+input:focus {
+    /* Styles applied to input elements in focus */
+}
+
+/* Selects placeholder text in input elements */
+input::placeholder {
+    /* Styles applied to placeholder text in input elements */
+}
+
+/* Selects read-only input elements */
+input:read-only {
+    /* Styles applied to read-only input elements */
+}
+
+/* Selects read-write input elements */
+input:read-write {
+    /* Styles applied to read-write input elements */
+}
+
+/* Selects input elements with a specific attribute */
+input[required] {
+    /* Styles applied to input elements with a 'required' attribute */
+}
+/* Selects input elements with a minimum length of characters */
+input:minlength(5) {
+    /* Styles applied to input elements with a minimum length of 5 characters */
+}
+
+/* Selects input elements with a maximum length of characters */
+input:maxlength(10) {
+    /* Styles applied to input elements with a maximum length of 10 characters */
+}
+/* Selects input elements that are currently required */
+input:required {
+    /* Styles applied to input elements that are required */
+}
+
+/* Selects input elements that are currently optional */
+input:optional {
+    /* Styles applied to input elements that are optional */
+}
+
+/* Selects input elements that are currently valid */
+input:valid {
+    /* Styles applied to input elements that are currently valid */
+}
+
+/* Selects input elements that are currently invalid */
+input:invalid {
+    /* Styles applied to input elements that are currently invalid */
+}
