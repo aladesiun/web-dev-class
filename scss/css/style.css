@@ -1,0 +1,35 @@
+.parent {
+  background-color: red;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 20px;
+}
+.parent .child {
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+body {
+  color: white;
+  background-color: green;
+}
+body p {
+  color: red;
+}
+body .parent_2 {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 20px;
+}
+body .parent_2 .child {
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+}/*# sourceMappingURL=style.css.map */

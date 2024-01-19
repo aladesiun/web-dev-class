@@ -1,0 +1,39 @@
+
+
+$backgroundColor: green;
+$height: 20px;
+$backgroundColor: green;
+$backgroundColor: green;
+@mixin customFlex ($direction:row) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: $direction;
+    height: $height;
+}
+
+@import './parent';
+
+body {
+    color: white;
+    background-color: $backgroundColor;
+
+    p {
+        color: red;
+    }
+
+    .parent_2 {
+        background-color: lightblue;
+        @include customFlex(column);
+        .child{
+            color: white;
+            padding: 10px;
+            border: 1px solid white;
+        }
+    }
+}
+
+
+// variables
+// mixins
+// 
