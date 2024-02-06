@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Document</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        mabelColor: 'white'
+                    },
+                    borderRadius: {
+                        '4xl': '2rem',
+                        mybr: '100px',
+                    },
+                    spacing: {
+                        '8xl': '6rem',
+                        '9xl': '20rem',
+                    },
+                },
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-[#212121]">
+    <div class="rounded-mybr border m-8xl px-9xl">
+        <h1 class="text-mabelColor text-[50px]">hello tailwind</h1>
+    </div>
+</body>
+
+</html>
