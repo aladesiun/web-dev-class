@@ -4,33 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                        mabelColor: 'white'
-                    },
-                    borderRadius: {
-                        '4xl': '2rem',
-                        mybr: '100px',
-                    },
-                    spacing: {
-                        '8xl': '6rem',
-                        '9xl': '20rem',
-                    },
-                },
-            }
-        }
-    </script>
 </head>
-
 <body class="bg-[#212121]">
-    <div class="rounded-mybr border m-8xl px-9xl">
-        <h1 class="text-mabelColor text-[50px]">hello tailwind</h1>
+    <div class="lg:flex md:block sm:flex justify-center items-center h-[500px] border  p-5">
+        <div class="h-[100px] border m-1 text-white rounded-lg p-5"> 
+            <h1>BOX 1</h1>
+        </div>
+        <div class="h-[100px] border m-1 text-white rounded-lg p-5"> 
+            <h1>BOX 2</h1>
+        </div>
+        <div class="h-[100px] border m-1 text-white rounded-lg p-5"> 
+            <h1>BOX 3</h1>
+        </div>
+        <div class="h-[100px] border m-1 text-white rounded-lg p-5"> 
+            <h1>BOX 4</h1>
+        </div>
     </div>
 </body>
 
