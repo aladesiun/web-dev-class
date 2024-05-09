@@ -50,9 +50,12 @@
 
 // booleans
 // true or false
-const isLoading = true;
+const isLoading = false;
 
-if (isLoading) {
-    
+if (!isLoading) {
+    // render account is active
+    console.log('it is true');
+}else{
+    // render account is in-active
+    console.log('it is false');
 }
-console.log(isLoading);
