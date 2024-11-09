@@ -4,10 +4,20 @@
 // 3: Loops
 
 // CONDITONAL STATEMENT includes the if statement and switch
-const age = 5;
-// if (age == 5) {
-//     console.log('You are an adult');
-// } else if (age <= 4) {
+// == loose equality
+// === strict equality
+// ts is superset
+// const age = 50;
+// if ((age > 50 && (500 < 400))) {
+//     console.log('yesssss');
+// }else if(age == 50){
+//     console.log('oo yesssss');
+// }
+// else{
+//     console.log('noooooo');
+// }
+
+// else if (age <= 4) {
 //     console.log('You are a juvenile');
 // }
 // else if (age == 3) {
@@ -25,9 +35,21 @@ const age = 5;
 //     console.log('You are a teen');
 // }
 
-let switchResult;
 
 // 2: switch statement
+// let day = 1;
+
+// let switchResult;
+// switch (day) {
+//     case 1:
+//         switchResult = "it is sunday";
+//     case 2:
+//         switchResult = "it is monday";
+//     default:
+//         switchResult = "it is default";
+// }
+// console.log(switchResult);
+
 
 
 // console.log(switchResult);
@@ -35,7 +57,32 @@ let switchResult;
 //For loop, while loop, do while loop
 // for loop
 // for(initialization, condition, increement/decreement)
-let students = ['tolu', 'tope', 'temmy', 'mabel'];
+// let students = ['tolu', 'tope', 'temmy', 'mabel'];
+
+// OOP
+// object is a blueprint of class
+
+let students = [
+    {name: "tope", age:40, 
+        secondObj:[
+        {name: "tolu", age:42},
+        {name: "tolu", age:42},
+        {name: "tolu", age:42},
+        {name: "tolu", age:42},
+        {name: "tolu", age:42},
+    ]},
+    {name: "tolu", age:42},
+    {name: "joy", age:20},
+    {name: "mabel", age:13},
+    {name: "segun", age:23},
+]
+
+
+
+
+const names= [
+    'Aladesiun', "ellon", "musk", "mark", "radio"
+]
 
 let dfs = [
     {
@@ -56,20 +103,46 @@ let dfs = [
     },
 ];
 
-for(let a = students.length; a == 4; a--){
-    console.log('hello');
-    if (a == 3) {
-        students[a] = students[a] + '-JSS1';
-    }
-    console.log(a);
+
+// // -- decrement, ++ increment
+for(let tea = 0; tea <= students.length - 1; tea++){
+    students[tea].name = names[tea];
 }
 
-console.log(students);
+// a = 5
+let a = 0;
+// while ( a < students.length) {
+//     console.log("yes it is less");
+//     a++;
+// }
+
+// do {
+//     console.log("yes it is less");
+//     a++;
+// } while (a < students.length);
+
+// console.log(
+//     students.map((value)=>{})
+// );
+
+// console.log(
+//     students.filter((student)=> student.age < 20)
+// );
+
+students.forEach((element)=>{
+    // console.log(element.age);
+});
+
+function calNum(num1 , num2){
+    return num1 + num2;
+}
+
+// console.log(calNum(1,5));
+// console.log(calNum(600, 503));
+// console.log(calNum(1000, -40));
+// console.log(calNum(1,5));
 
 
-
-
-// map();
 // filter();
 // forEach(element => {});
 
@@ -82,3 +155,18 @@ console.log(students);
 // } while (condition);
 
 // Functions and scope
+
+// Object 
+const mabel = { name: "segun", age: 23, d_amountt:400, debit_amt:400 };
+const keys =Object.keys(mabel);
+console.log(keys);
+console.log(
+    keys.map((key)=>mabel[key])
+);
+
+// DOM manipulation
+// document.getElementsByClassName
+document.getElementById
+document.querySelector
+document.querySelectorAll
+// document.getElementsByClassName

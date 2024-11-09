@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>dLogin page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<style>
+/* 
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+</style>
+</head>
+
+
+
+<body>
+    <main class="w-full border  font-[Oswald]">
+        <div class="">
+            <form action="" class="w-[35%] h-[500px] font-normal max-w-[1000px] my-[20vh] mx-auto p-[30px] rounded-[5px] border border-border-color">
+                <h1 class="header">Login Form</h1>
+                <div class="form-content">
+                    <div class="username-container">
+                        <label for="username">Username:</label></br>
+                        <input type="text" placeholder="Enter your username" class="input" required />
+                    </div>
+                    <div class="password-container">
+                        <label for="password">Password:</label></br>
+                        <input type="text" placeholder="Enter your password" class="input" required />
+                    </div>
+                    <div class="">
+                        <input type="checkbox" class="checkbox" />
+                        <label for="checkbox">Remember</label>
+                        <button class="btn">Login</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    clifford: '#da373d',
+                    seyi: '#00ae45',
+                   'border-color':"#cacaca"
+                },
+                fontSize:{
+                    // '2xl':'10px'
+                },
+            }
+        }
+    }
+</script>
+
+</html>

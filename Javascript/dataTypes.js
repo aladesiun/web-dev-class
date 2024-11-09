@@ -14,13 +14,63 @@
 
 // for javascript
 // strings, numbers, booleans, object, array, null, undefined
+// BASIC/PRIMITIVE => strings, numbers, booleans,  null, undefined, BigIntN
+// NON-PRIMITIVE=> Objects, array, functions, date, RegExp, map, set, weakMap, weakSet
 
+// MAP
+// var map = new Map();
+// map.set('age', 50)
+// map.set('name', "themmy")
+// map.set('school', "lautech")
+// var mySet = new Set();
+// mySet.add(500)
+// mySet.add("tope")
+// mySet.add("tope")
+// mySet.add("tope")
+// mySet.add(200)
+// console.log(mySet);
+// console.log(map.size);
+// object contains key and value pair 
+var weakMap = new WeakMap();
+weakMap.set({'hh':'s'}, 50);
+var weakSet = new WeakSet();
+// var car = {
+//     'engine': "v8",
+//     'year': 2002,
+//     'tire': [ 1,2,3,4],
+// };
+// car.engine = 'v6';
+// console.log(Object.keys(car).length);
+
+// var person = {
+//     'hight': 'Tope\'s car'
+// }
+
+// var list = [10,5,5,2,4,53,23,7,9,0,5];
+// var finder = 5;
+// var newArr = [];
+// // console.log(list.forEach((element)=>{
+// //     console.log(element + 1, 'inner');
+// //     newArr.push()
+
+// // }));
+// // find, findIndex => come back
+// console.log(list.toString());
+// console.log(list);
+// console.log(list);
 
 // var age = "he" "llo";
 
 // var age = "hello";
 // var arryAge = [ 30, 5, 5 ,6, 7, 8, 9, 9, 50.0];
-
+// var sum = (a, b)=>{
+    
+// }
+// console.log(sum(50, 60));
+// console.log(sum(100, 500));
+// var dob = new Date();
+// dob.getDate
+// dob.getFullYear
 // // arryAge.splice(0, 5);
 // console.log(arryAge.filter((arr)=> arr < 30 ));
 // // arryAge.length;

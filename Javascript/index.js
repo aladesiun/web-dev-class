@@ -1,5 +1,4 @@
 
-
 // js Basics
 // DOM 
 // algorithm
@@ -13,10 +12,15 @@
 // VARIABLES
     // ES6
     // let
-    // const
+    // const  ()=> function(){}
     // var
 
 var the_name = "tope";
+the_name = 90;
+// html, css , boostrap, tailwind, mui, chakra, vuetiy js, jquery, angular, react, react native next.js, vue.js, nuxt.js
+// next.js
+// vue.js 
+// nuxt.js
 
 // alphanumeric
 // snake case

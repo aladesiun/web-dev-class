@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     /* flex-flow: row nowrap; */
     height: 500px;
+    scroll-behavior: smooth;
 }
 .child{
     border: 1px solid red;
